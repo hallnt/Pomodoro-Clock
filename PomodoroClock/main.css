@@ -1,0 +1,65 @@
+﻿/* style page body */
+body {
+  background-color: #124;
+  color: white;
+  font-family: monospace, sans-serif;
+  text-align: center;
+}
+
+/* style page heading */
+h1 {
+  font-family: fantasy;
+  font-size: 60px;
+}
+
+/* style h2 heading */
+h2 {
+  margin-top : 50px;
+}
+
+/* style buttons */
+button {
+  background-color: #123;
+  border: none;
+}
+
+/* style page container */
+.container {
+  background-color: #111;
+  border: 5px solid #123;
+  border-radius: 5px;
+  width: 40%;
+  padding: 30px 0;
+  font-size: 18px;
+}
+
+/* style break length block */
+#break-length {
+  display: inline-block; 
+}
+
+/* style session length block */
+#session-length {
+  display: inline-block;  
+  margin-left: 40px;
+}
+
+/* style session section */
+#session {
+  border: 1px solid yellow;
+  border-radius: 70%;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto 0 auto;
+  font-size: 30px;
+}
+
+/* style start session button */
+#start {
+  background-color: #123;
+}
+
+/* style page footer */
+.footer {
+  margin-top: 50px;
+}

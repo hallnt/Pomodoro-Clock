@@ -14,17 +14,39 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
+    <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
-    <!-- Pomodoro container -->
-    <div id="container">
-        
-    </div><!-- /#container -->
+    <h1><b>Pomodoro Clock</b></h1><!-- page heading -->
+    <!-- Pomodoro clock container -->
+    <div class="container">
+        <div id="break-length">
+            BREAK LENGTH<br>
+            <button>-</button>
+            <span id="bl">5</span>
+            <button>+</button>
+        </div>
+        <div id="session-length">
+            SESSION LENGTH<br>
+            <button>-</button>
+            <span id="bl">25</span>
+            <button>+</button>
+        </div>
+
+        <!-- Session -->
+        <div id="session">
+            <h2>Session</h2>
+            <button id="start">
+                <span id="start-sess">25</span>
+            </button>
+        </div><!-- /#session -->
+    </div><!-- /.container-->
 
     <!-- Footer section -->
     <div class="footer">
         Copyright © Teleisha Hall 2016.
     </div>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
