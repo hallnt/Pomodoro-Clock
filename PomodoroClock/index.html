@@ -2,9 +2,9 @@
 <html lang="en">
 <!-- Author: Teleisha Hall -->
 <!-- App: Pomodoro Clock -->
-<!-- Date: February 6, 2016 -->
+<!-- Date: February 11, 2016 -->
 <!-- Description: Pomodoro timer developed using HTML5, CSS, Bootstrap and JavaScript -->
-<!-- Version 1 -->
+<!-- Version 2 -->
 <head>
     <title>Pomodoro Clock</title>
 
@@ -18,35 +18,38 @@
 </head>
 <body>
     <h1><b>Pomodoro Clock</b></h1><!-- page heading -->
-    <!-- Pomodoro clock container -->
-    <div class="container">
-        <div id="break-length">
-            BREAK LENGTH<br>
-            <button>-</button>
-            <span id="bl">5</span>
-            <button>+</button>
-        </div>
-        <div id="session-length">
-            SESSION LENGTH<br>
-            <button>-</button>
-            <span id="bl">25</span>
-            <button>+</button>
-        </div>
 
-        <!-- Session -->
-        <div id="session">
-            <h2>Session</h2>
-            <button id="start">
-                <span id="start-sess">25</span>
-            </button>
-        </div><!-- /#session -->
-    </div><!-- /.container-->
+    <div class="settings">
+        <div id="breakLength">
+            <p>Break Length</p>
+            <div>
+                <button class="in" id="minusBl">-</button>
+                <p class="in" id="bl">5</p>
+                <button class="in" id="plusBl">+</button>
+            </div>
+        </div>
+        <div id="sessionLength">
+            <p>Session Length</p>
+            <div>
+                <button class="in" id="minusSl">-</button>
+                <p class="in" id="sl">25</p>
+                <button class="in" id="plusSl">+</button>
+            </div>
+        </div>
+    </div><!-- /.settings -->
+
+    <h5>CLICK TO START CLOCK</h5>
+
+    <!-- Clock -->
+    <div class="clock">
+        <p class="clockType">Session</p>
+        <p id="timer">25:00</p>
+    </div>
 
     <!-- Footer section -->
     <div class="footer">
         Copyright © Teleisha Hall 2016.
     </div>
-
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
